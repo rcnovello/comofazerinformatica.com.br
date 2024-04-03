@@ -2,8 +2,10 @@
 <!--<div class="container-fluid" style="margin-bottom: 120px;">-->
 <div class="container-fluid">
   <!--Menu header-->
+<!-- NAV Sistema -->  
+<!--
   <nav class="navbar navbar-dark fixed-top" style="background-color: #4d7498;">
-    <!--<nav class="navbar navbar-dark bg-dark fixed-top" style="background-color: #4d7498;">-->
+    
     
 
       <div class="dropdown">
@@ -54,8 +56,123 @@
         </div>
       </div>    
   </nav>
+-->
 
-  
+
+
+
+<div class="offcanvas-lg offcanvas-end" tabindex="-1" id="offcanvasResponsive" aria-labelledby="offcanvasResponsiveLabel">
+  <div class="offcanvas-header">
+    <h5 class="offcanvas-title" id="offcanvasResponsiveLabel">Responsive offcanvas</h5>
+    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#offcanvasResponsive" aria-label="Close"></button>
+  </div>
+  <div class="offcanvas-body">
+    <div class="container containerHeaderSub">
+
+      <div class="row">
+    
+        <div class="col">
+          <nav class="nav">
+            <a class="nav-link" href="#">Sobre</a>
+            <a class="nav-link" href="#">Forum</a>
+            <a class="nav-link" href="#">Loja</a>
+            <a class="nav-link disabled" aria-disabled="true">Entrar / Cadastrar</a>
+          </nav>
+        </div>
+    
+        <div class="col">      
+          <nav class="nav">        
+            <a class="nav-link" target="_blank" href="#"></a>
+            <a class="nav-link" target="_blank" href="#"></a>
+            <a class="nav-link" target="_blank" href="https://www.instagram.com/fr.watches/"><i class="fa-brands fa-square-instagram"></i>/fr.watches</a>
+            <a class="nav-link" target="_blank" href="https://www.facebook.com/comofazerinformatica/"><i class="fa-brands fa-square-facebook"></i>/comofazerinformatica</a>
+          </nav>
+        </div>
+    
+      </div>
+    
+    </div>
+  </div>
+</div>
+
+<hr>
+
+<div class="container">
+  <nav class="navbar navbar-expand-lg bg-body-tertiary"> 
+
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03" 
+      aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+      <i class="fa-solid fa-bars"></i>
+    </button>
+    
+    <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasResponsive" 
+      aria-controls="offcanvasResponsive">
+      <i class="fa-solid fa-list"></i>
+    </button>
+    
+    <div class="collapse navbar-collapse" id="navbarTogglerDemo03">          
+      <a class="navbar-brand" href="#">LOGO</a>
+
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Artigos T.I.</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link"  href="#">Entretenimento</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link"  href="#">Solicite um conteúdo</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link"  href="https://www.frprodutos.com.br">LOJA FR.PRODUTOS</a>
+        </li>
+      </ul>
+
+      <form class="d-flex" role="search">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success" type="submit">Search</button>
+      </form>
+
+    </div>
+  </nav>
+</div>
+
+<div class="container">
+  <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <button type="button" class="btn btn-info"
+          style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;">
+    Tendências
+  </button> Noticia 1
+      </div>
+      <div class="carousel-item">
+        <button type="button" class="btn btn-info"
+        style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;">
+  Tendências
+  </button> Noticia 2
+      </div>
+      <div class="carousel-item">
+        <button type="button" class="btn btn-info"
+        style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;">
+  Tendências
+  </button> Noticia 3
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+</div>
+
   <!--Mensagens do Sistema-->
   <div class="toast fade show msgSistema fixed-top" data-bs-autohide="false" role="alert" aria-live="assertive" 
   aria-atomic="true" id="toastAviso" hidden style="margin-top: 70px;">
