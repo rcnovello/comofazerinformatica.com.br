@@ -43,10 +43,13 @@ module.exports = (app) => {
     res.render('posts_estaticos/posts_5/posts_views')
    }); 
 
+   app.get('/post_6', (req, res) => {
+    res.render('posts_estaticos/posts_6/posts_views')
+   }); 
+
    app.get('/post_7', (req, res) => {
     res.render('posts_estaticos/posts_7/posts_views')
    }); 
-
 
    app.get('/post_8', (req, res) => {
     res.render('posts_estaticos/posts_8/posts_views')

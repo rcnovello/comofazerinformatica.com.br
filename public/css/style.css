@@ -86,12 +86,11 @@ b{
 }
 
 .nav-item:hover a{
-  color: black;
+  color:#80bdff
 }
 
-.nav-item:hover {
-  background-color: #c5d5e4;
-  color: black;
+.nav-item:hover {  
+  
 }
 
 
