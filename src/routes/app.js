@@ -12,6 +12,10 @@ module.exports = (app) => {
     res.render('index')
   }); 
 
+  app.get('/sobre', (req, res) => {
+    res.render('sobre')
+  }); 
+
   /*
   app.get('/posts', (req, res) => {
     res.render('posts_views')   
