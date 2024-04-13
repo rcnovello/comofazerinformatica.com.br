@@ -12,9 +12,48 @@ module.exports = (app) => {
     res.render('index')
   }); 
 
+  /*
   app.get('/posts', (req, res) => {
-    res.render('posts_views')
+    res.render('posts_views')   
   }); 
+  */
+
+  
+
+  app.get('/post_1', (req, res) => {
+    res.render('posts_estaticos/posts_1/posts_views')
+   }); 
+
+   app.get('/post_2', (req, res) => {
+    res.render('posts_estaticos/posts_2/posts_views')
+   }); 
+
+   
+   app.get('/post_3', (req, res) => {
+    res.render('posts_estaticos/posts_3/posts_views')
+   }); 
+
+
+  app.get('/post_4', (req, res) => {
+    res.render('posts_estaticos/posts_4/posts_views') 
+   }); 
+
+   
+   app.get('/post_5', (req, res) => {
+    res.render('posts_estaticos/posts_5/posts_views')
+   }); 
+
+   app.get('/post_7', (req, res) => {
+    res.render('posts_estaticos/posts_7/posts_views')
+   }); 
+
+
+   app.get('/post_8', (req, res) => {
+    res.render('posts_estaticos/posts_8/posts_views')
+   }); 
+   app.get('/post_9', (req, res) => {
+    res.render('posts_estaticos/posts_9/posts_views')
+   }); 
 
 };
 
