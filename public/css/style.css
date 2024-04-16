@@ -5,6 +5,7 @@ b{
 }
 
 /* Inicio */
+/*
 #loadingOverlay {
   position: fixed;
   top: 0;
@@ -44,11 +45,13 @@ b{
   animation: spin 1s linear infinite;
 }
 
+
 @keyframes spin {
   0% { transform: rotate(0deg); }
   100% { transform: rotate(360deg); }
 }
 
+*/
 /* Barra Navegação Menu */ 
 
 .imgLogo{
@@ -107,7 +110,7 @@ b{
   margin-top: 20px;
   margin-bottom: 20px;
   font-weight: bold;  
-  color: #4d7498;
+  
 }
 
 /* SubMenu*/

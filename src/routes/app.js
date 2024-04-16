@@ -16,6 +16,11 @@ module.exports = (app) => {
     res.render('sobre')
   }); 
 
+  app.get('/politica_privacidade', (req, res) => {
+    res.render('politica_privacidade')
+  }); 
+  
+
   /*
   app.get('/posts', (req, res) => {
     res.render('posts_views')   
