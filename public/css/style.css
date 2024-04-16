@@ -1,8 +1,8 @@
 
 /*tags*/
 b{
-  color: #4d7498;
-}
+  font-size: x-large;
+};
 
 /* Inicio */
 /*
@@ -92,9 +92,6 @@ b{
   color:#80bdff
 }
 
-.nav-item:hover {  
-  
-}
 
 
 /* Headers */
@@ -123,6 +120,7 @@ b{
   color: black;
 }
 
+
 /* Mensagens do Sistema*/
 div.msgSistema {
   width: 100%;  
@@ -139,6 +137,12 @@ div.msgSistemaPadrao {
 }
 
 /* Footer */
+
+
+.footer:hover a{
+  color: black
+}
+
 
 
 

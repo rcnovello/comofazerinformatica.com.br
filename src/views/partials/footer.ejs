@@ -1,9 +1,75 @@
 <!-- Rodapé exibido em todas as páginas -->
-<footer>
+<footer class="footer bg-black p-2 bg-opacity-80 text-light">
+
+  <div class="container">
+
+    <div class="row">
+
+      <div class="col-sm-8"><a class="navbar-brand" href="#"><img src="/img/header/log.png" height="60" width="300"></a></div>
+      <div class="col-sm-4">
+        
+        <form class="row">
+          <div class="col">            
+            <input type="email" class="form-control" id="txtEmailInscr" placeholder="Insira seu e-mail">
+          </div>
+          <div class="col">
+            <button type="submit" class="btn btn-primary mb-3">Se-Inscrever</button>            
+          </div>
+          <a href="/politica_privacidade">Para se inscrever você concoarda com a nossa Política de Privacidade</a>
+        </form>
+      
+      </div>
+
+    </div>
+
+    <hr>
+
+    <div class="row">
+      <div class="col-sm"><b>Recentes</b></div>
+      <div class="col-sm"><b>Menu</b></div>
+      <div class="col-sm"><b>Rede Social</b></div>
+      <div class="col-sm"><b>Mobile</b></div>
+    </div>
+
+    <div class="row">      
+      <div class="col-sm"> <%- include('../recents.ejs') %></div>
+      <div class="col-sm">
+        <p>Contate-nos</p>
+        <p>Novidades</p>
+        <p>Política de Privacidade</p>
+        <p>Suporte</p>
+      </div>
+      <div class="col-sm"></div>
+      <div class="col-sm"></div>
+    </div>
+
+    <div class="row">
+      <div class="col-sm"><b>Mais acessados</b></div>
+    </div>
+    <div class="row">
+      <div class="col-sm text-white-50" >Teste Teste 1</div>      
+    </div>
+
+   <br> 
+  <div class="row text-white-50">
+    <div class="col-sm">
+      © 2024. Todos os direitos reservados <a href="https://www.rcndev.comofazerinformatica.com.br"  target="_blank">www.rcndev.comofazerinformatica.com.br</a>
+    </div>
+    <div class="col-sm"></div>
+    <div class="col-sm">Termos de uso</div>
+    <div class="col-sm">Política de Privacidade</div>
+    <div class="col-sm">Cookies</div>
+  </div>
+
+  </div>
+
+<!--
   <p class="text-center">© 2024. Todos os direitos reservados</p>
   <h6 class="text-center">
     <a href="https://www.rcndev.comofazerinformatica.com.br"  target="_blank">www.rcndev.comofazerinformatica.com.br</a>
   </h6>
+  -->
+
 </footer>
 
 <nav class="navbar fixed-bottom bg-primary-subtle" data-target="target-element" id="navPolitica" hidden="true">
