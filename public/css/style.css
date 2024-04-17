@@ -139,9 +139,17 @@ div.msgSistemaPadrao {
 /* Footer */
 
 
-.footer:hover a{
-  color: black
+.footer{
+  color:#ced4da;
+  font-size:small
 }
+
+/*
+.footer img{
+  height:45px; width:45px 
+}
+*/
+
 
 
 
