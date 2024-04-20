@@ -1,7 +1,7 @@
 
 //"use strict"
 const express = require('express');
-const session = require('express-session');
+//const session = require('express-session');
 const path = require('path');
 const bodyParser = require('body-parser'); 
 const app = express();
@@ -30,11 +30,13 @@ const http = require('http');
 // Configurar middleware
 app.use(bodyParser.urlencoded({ extended: true }));
 
+/*
 app.use(session({
   secret: 'ISNAMDYxMjkxOTJDZmk=',
   resave: false,
   saveUninitialized: true
 }));
+*/
 
 
 app.use(express.static(path.join(__dirname, '../public')));
@@ -50,7 +52,7 @@ server.listen(__serverPortHttp);
 
     server.on('listening', () => {
 
-        console.log(`Server running at: http://${__serverIp}:${__serverPortHttp}/`);        
+        console.log(`Site sendo executado em: http://${__serverIp}:${__serverPortHttp}/`);        
     })   
     server.on('error', (error) => {
         console.log(`Server NOT running at: http://${__serverIp}:${__serverPortHttp}/${error}`);        
